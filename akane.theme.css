@@ -1,0 +1,50 @@
+/**
+ * @name Akane
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+
+:root {
+  --background: url('https://scontent.fcrk1-2.fna.fbcdn.net/v/t39.30808-6/616595429_1202649568674223_5530175671758568277_n.jpg?stp=dst-jpg_tt6&cstp=mx1820x2048&ctp=s1820x2048&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHTAOZATCxcd0ZDUfc-gessTZ_iVSl0EBJNn-JVKXQQErCWoe-BLf31uLQgf-q5Rzw3Tlv8kjUASQW8m1edE2OS&_nc_ohc=07M22OsfXIkQ7kNvwFZ5WTW&_nc_oc=AdrbZw9S0s-jnmrVer9E2HKsMEFFjHlBHzrDCe55Z4qFbtTWws4sH-LtYhBNM1T8wJY&_nc_zt=23&_nc_ht=scontent.fcrk1-2.fna&_nc_gid=LHXEC7vRb5_JfPUQ3aMV4g&_nc_ss=7b2a8&oh=00_AQM-ac2Q-n_y8SBDtPXijnLxzPooxw3FFihT2O3sfBshFg&oe=6ADBDC54');
+  --backgroundsize: 70%;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 190,78,180;
+  --backdrop: rgba(0,0,0,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0.15;
+  --messagetransparency: 0.5;
+  --guildchanneltransparency: 0.15;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0;
+  --font: Whitney;
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 200,200,200;
+  --textdark: 160,160,160;
+  --textdarker: 125,125,125;
+  --textdarkest: 90,90,90;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+}
+
+/* Any custom CSS below here */
+
+
